@@ -4,6 +4,7 @@ class Cuadrado
 {
     public double Perimetro(double l)
     {
+        // cambio
         return 4 * l;
     }
     public double Area(double l)
