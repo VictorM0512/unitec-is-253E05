@@ -1,0 +1,18 @@
+@page
+@{
+    double ladoa = 5;
+    double ladob = 10;
+    double ladoc = 15;
+    double angulod = 20;
+    double altura = 30;
+    double perimetro = Application253E05.Trapecio.Perimetro(ladoa, ladob, ladoc);
+    double area = Application253E05.Trapecio.Area(angulod, ladob, ladoc);
+    double volumen = Application253E05.Trapecio.Volumen(area, altura);
+}
+
+El perímetro de un Trapecio es dos veces el ladoa + ladob + ladoc = @(2*ladoa)cm + @(ladob)cm + @(ladoc)cm = @(perimetro)cm  
+<br />
+El área del Trapecio es de angulod * ladob + ladoc = @(angulod)cm * (@(ladob)cm @(ladoc)cm) = @(area)cm²  
+<br />
+El volumen de un Trapecio con un área de @(area)cm² y @(altura)cm de altura = @(volumen)cm³
+
