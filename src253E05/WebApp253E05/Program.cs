@@ -4,4 +4,4 @@
     var app = builder.Build();
     app.MapRazorPages();
     app.Run();
-    public partial class program {}
+    public partial class Program {}
